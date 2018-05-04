@@ -11,8 +11,8 @@ public class JieCheng {
 		int a = num.nextInt();
 		int c = 1;
 		for (int i = 1; i <= a; i++) {
-			int b = i * c;
-			c = b;
+			c *= i;
+			
 		}
 		System.out.println(c);
 		num.close();

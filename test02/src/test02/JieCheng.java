@@ -12,10 +12,20 @@ public class JieCheng {
 		int c = 1;
 		for (int i = 1; i <= a; i++) {
 			c *= i;
-			
+
 		}
-		System.out.println(c);
+		System.out.println("所输入数字的阶乘为：" + c);
 		num.close();
+		System.out.println("---------------递归----------------");
+		System.out.println(fac(a));
+	}
+
+	public static int fac(int f) {
+		if (f == 1) {
+			return 1;
+		} else {
+			return f * fac(f - 1);
+		}
 	}
 
 }

@@ -19,6 +19,7 @@ public class Triangle {
 				if(j==num) {
 					System.out.println("*");
 				}
+				
 			}
 		}
 		

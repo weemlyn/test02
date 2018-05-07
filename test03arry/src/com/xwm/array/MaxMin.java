@@ -2,7 +2,7 @@ package com.xwm.array;
 
 import java.util.Scanner;
 
-public class TestThree {
+public class MaxMin {
 
 	public static void main(String[] args) {
 		int count[]=new int[10];

@@ -2,7 +2,7 @@ package com.xwm.array;
 
 import java.util.Random;
 
-public class TestTwo {
+public class RedBlue {
 
 	public static void main(String[] args) {
 

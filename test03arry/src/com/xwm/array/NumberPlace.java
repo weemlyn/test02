@@ -1,6 +1,6 @@
 package com.xwm.array;
 
-public class TestOne {
+public class NumberPlace {
 
 	public static void main(String[] args) {
 		

@@ -2,7 +2,7 @@ package com.xwm.array;
 
 import java.util.Scanner;
 
-public class TestFour {
+public class IdCard {
 
 	public static void main(String[] args) {
 

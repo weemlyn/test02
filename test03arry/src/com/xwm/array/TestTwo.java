@@ -7,10 +7,7 @@ public class TestTwo {
 	public static void main(String[] args) {
 
 		int red[] = new int[6];
-		Random d = new Random();
-		int e = d.nextInt(33) + 1;
-		red[0] = e;
-		int count = 1;
+		int count = 0;
 		int mark = 0;
 		while (count < 6) {
 			Random a = new Random();

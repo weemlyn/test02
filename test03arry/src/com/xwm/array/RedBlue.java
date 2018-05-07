@@ -6,7 +6,7 @@ public class RedBlue {
 
 	public static void main(String[] args) {
 
-		int red[] = new int[6];
+		int[] red = new int[6];
 		int count = 0;
 		int mark = 0;
 		while (count < 6) {

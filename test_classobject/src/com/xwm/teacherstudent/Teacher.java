@@ -1,4 +1,4 @@
-package test_classobject;
+package com.xwm.teacherstudent;
 
 public class Teacher {
 	String name;

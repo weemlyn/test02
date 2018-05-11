@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class VehicleTest {
 
 	public static void main(String[] args) {
-		Vehicle v = new Vehicle();
+		Vehicle v = new Vehicle(5,50);
 		v.move();
 		Scanner a = new Scanner(System.in);
 		System.out.println("输入你想开到多少码？");

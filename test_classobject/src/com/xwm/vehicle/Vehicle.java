@@ -1,15 +1,21 @@
 package com.xwm.vehicle;
 
 public class Vehicle {
-	int size;
-	int speed;
+	private int size;
+	private int speed;
 
-	public void move() {
-		System.out.println("汽车开车了");
+	public Vehicle(int size, int speed) {
+		super();
+		this.size = size;
+		this.speed = speed;
 	}
 
-	public void setSpeed(int speed) {
-		this.speed = speed;
+	public void move() {
+		System.out.println("汽车"+size+"米长,"+speed+"码起步"+"\n"+"开车了");
+	}
+
+	public void setSpeed(int sp) {
+		this.speed = sp;
 		System.out.println("现在把车开到" + speed + "码");
 	}
 

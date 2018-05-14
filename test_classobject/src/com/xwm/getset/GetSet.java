@@ -15,9 +15,9 @@ public class GetSet {
 		this.age = age;
 	}
 	
-	public void print() {
-		System.out.println(name+age+"岁");
-	}
+	//public void print() {
+		//System.out.println(name+age+"岁");
+	//}
 
 	public String getName() {
 		return name;

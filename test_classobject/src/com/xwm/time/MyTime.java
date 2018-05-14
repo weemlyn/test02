@@ -14,26 +14,74 @@ public class MyTime {
 
 	public void addSecond(int sec) {
 		second += sec;
+		if(second>59) {
+			second-=60;
+			minute+=1;
+			if(minute>59){
+				minute-=60;
+				hour+=1;
+				if(hour>23) {
+					hour-=24;
+					System.out.println("第二天");
+				}
+			}
+		}
 	}
 
 	public void addMinute(int min) {
 		minute += min;
+		if(minute>59) {
+			minute-=60;
+			hour+=1;
+			if(hour>23) {
+				hour-=24;
+				System.out.println("第二天");
+			}
+		}
 	}
 
 	public void addHour(int hou) {
 		hour += hou;
+		if(hour>23) {
+			hour-=24;
+			System.out.println("第二天");
+		}
 	}
 
 	public void subSecond(int sec) {
 		second -= sec;
+		if(second<0) {
+			second+=60;
+			minute-=1;
+			if(minute<0){
+				minute+=60;
+				hour-=1;
+				if(hour<0) {
+					hour+=24;
+					System.out.println("前一天");
+				}
+			}
+		}
 	}
 
 	public void subMinute(int min) {
 		minute -= min;
+		if(minute<0){
+			minute+=60;
+			hour-=1;
+			if(hour<0) {
+				hour+=24;
+				System.out.println("前一天");
+			}
+		}
 	}
 
 	public void subHour(int hou) {
 		hour -= hou;
+		if(hour<0) {
+			hour+=24;
+			System.out.println("前一天");
+		}
 	}
 
 	public void display() {

@@ -3,7 +3,7 @@ package com.xwm.time;
 public class MyTimeTest {
 
 	public static void main(String[] args) {
-		MyTime time = new MyTime(10, 10, 10);
+		MyTime time = new MyTime(23, 59, 59);
 		time.display();
 		time.addHour(1);
 		time.display();

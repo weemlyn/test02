@@ -22,7 +22,11 @@ public class Number {
 	}
 
 	public void div() {
-		System.out.println(n1 + "/" + n2 + "=" + (n1 / n2));
+		if (n2 == 0) {
+			System.out.println("除数不能为0");
+		} else {
+			System.out.println(n1 + "/" + n2 + "=" + (n1 / n2));
+		}
 	}
 
 }

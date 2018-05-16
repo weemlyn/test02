@@ -1,23 +1,27 @@
 package com.java.custom;
 
-public class Client {
+public class Customer {
 	private int age;
 	private String name;
 	private double money;
 
-	public Client(int age, String name, double money) {
+	public Customer(int age, String name, double money) {
 		super();
 		this.age = age;
 		this.name = name;
 		this.money = money;
 	}
 
-	public Client() {
+	public Customer() {
 
 	}
-	
+
+	public void service() {
+		System.out.println("服务中");
+	}
+
 	public void print() {
-		System.out.println(name+" "+age+" "+money);
+		System.out.println(name + " " + age + " " + money);
 	}
 
 	public int getAge() {

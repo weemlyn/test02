@@ -19,7 +19,7 @@ public class VipCustomer extends Customer {
 	
 
 	public void tousu() {
-		System.out.println("投诉中");
+		System.out.println(getName()+"投诉中");
 	}
 
 }

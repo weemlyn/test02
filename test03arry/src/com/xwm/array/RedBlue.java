@@ -40,6 +40,8 @@ public class RedBlue {
 		Random c = new Random();
 		int blue = c.nextInt(16) + 1;
 		System.out.println("摇出的蓝球是{" + blue + "}");
+		int b=((int) Math.random())*33;
+		System.out.println(b);
 	}
 
 }
